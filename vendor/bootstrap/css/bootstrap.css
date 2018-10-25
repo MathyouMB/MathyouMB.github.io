@@ -595,7 +595,10 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
-
+.im-centered{
+  margin: auto; 
+  max-width: 300px;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
