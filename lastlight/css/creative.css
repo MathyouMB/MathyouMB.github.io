@@ -288,7 +288,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #5792D6 !important;
+  color: #020205 !important;
 }
 
 .btn {
@@ -305,7 +305,7 @@ header.masthead p {
 
 .btn-primary {
   background-color: #020205;
-  border-color: #5792D6;
+  border-color: #020205;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
