@@ -304,13 +304,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #5792D6;
+  background-color: #020205;
   border-color: #5792D6;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #5792D6 !important;
+  background-color: #020205 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
