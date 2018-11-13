@@ -19,12 +19,12 @@ var mouse = {
 	y: undefined
 }
 
-var maxRadius = 40;
+var maxRadius = 15;
 var mouseDis = 75;
 //var minRadius = 2;
 
 var colorArray = [
-	'#2A4D69',
+	//'#2A4D69',
 	'#4B86B4',
 	'#ADCBE3',
 	'#E7EFF6',
@@ -97,11 +97,11 @@ var circleArray = [];
 
 function init(){
 	circleArray = [];
-	for(var i =0; i<400; i++){
+	for(var i =0; i<50; i++){
 		var x = Math.random() * (innerWidth - radius*2)+ radius;
 		var y = Math.random() * (innerHeight - radius*2)+ radius;
-		var dx = (Math.random() -0.5)*8;
-		var dy = (Math.random() -0.5)*8;
+		var dx = (Math.random() -0.5)*4;
+		var dy = (Math.random() -0.5)*4;
 		var radius = Math.random()* 4 + 2;
 		circleArray.push(new Circle(x,y,dx,dy,radius)); 
 	}
