@@ -22,7 +22,7 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
 
   </head>
 
@@ -60,17 +60,18 @@
         </div>
       </div>
     </nav>
-
+ 
     <header class="masthead text-center text-white d-flex">
-     
-      <div class="container my-auto">
+       <canvas id="can"></canvas>
+              <script type src="canvas/canvas.js"></script>
+      <div class="container my-auto" id="overlay">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1 style=font-size:65px class="text-uppercase"> <!--style=font-size:100px-->
-              <strong>Matthew</strong>
+            <h1 style=font-size:65px class="text-uppercase" >
+              <div id="text"><strong>Matthew</strong></div>
             </h1>
            <div class="col-lg-8 mx-auto">
-            <h2> <!--style=font-size:56px-->
+            <h2> 
               <strong>MacRae - Bovell</strong>
             </h2>
             <hr class="light my-4">
@@ -79,13 +80,41 @@
           
            <p class="text-faded mb-5">Computer Science Student</p>
         
-            <!--<a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">Projects</a>-->
+        
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">Projects</a>
+            
+          </div>
+        </div>
+        </div>
+      </div>
+    </header>
+<!--
+   <header class="masthead text-center text-white d-flex">
+       <canvas id="can"></canvas>
+              <script type src="canvas/canvas.js"></script>
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 style=font-size:65px class="text-uppercase" >
+              <div id="labelDiv"><strong>Matthew</strong></div>
+            </h1>
+           <div class="col-lg-8 mx-auto">
+            <h2>
+              <strong>MacRae - Bovell</strong>
+            </h2>
+            <hr class="light my-4">
+          </div>
+           <div class="col-lg-4 mx-auto">
+          
+           <p class="text-faded mb-5">Computer Science Student</p>
+      
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">Projects</a>
             
           </div>
         </div>
       </div>
     </header>
+-->
 
    <section class="p-0" id="portfolio">
       <div class="container-fluid p-0">
@@ -335,7 +364,7 @@
                   </td>
                   <td style="border:none; vertical-align:middle;" valign="top">
                     <div align="justify" valign="top"><p style="margin-left:1cm;" class="text-faded mb-4 text-left">Currently I'm a first year computer science student at Carleton university with an interested in software and game development. I've lived in Ottawa my whole life and last spring, graduated from John McCrae Secondary School with my certificate of bilingualism.</p></div>
-                  </td>
+                  </td>nice
                   </tr>
               </tbody>
             </table>

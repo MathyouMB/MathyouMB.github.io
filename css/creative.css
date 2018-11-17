@@ -1,4 +1,4 @@
-/*!
+a/*!
  * Start Bootstrap - Creative v5.0.1 (https://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
@@ -182,12 +182,36 @@ img::-moz-selection {
   }
 }
 
+#labelDiv {
+    font-size: 70px;
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    z-index: 1;
+}
+#can {
+    z-index: 0;
+}
+
+#overlay {
+    position: relative; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
   background-image: url("../img/header.jpg");
   background-position: center center;
   background-size: cover;
+  position: relative;
+  height: 100%;
 }
 
 header.masthead hr {
